@@ -1,0 +1,15 @@
+.col{
+	background-color: blue;
+	color: white;
+	border-color: blue;
+	border-radius: 25px;
+	box-shadow: 2px;
+	padding: 20px;
+	font-weight: bold;
+}
+h2{
+	color: blue;
+	/*background-color:blue;*/
+
+	font-style: italic;
+}

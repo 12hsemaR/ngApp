@@ -1,0 +1,14 @@
+.col{
+	background-color: red;
+	color: white;
+	border-color: red;
+	border-radius: 25px;
+	box-shadow: 2px;
+	padding: 20px;
+	font-weight: bold;
+}
+h2{
+	color: red;
+	/*background-color:red;*/
+	font-style: italic;
+}

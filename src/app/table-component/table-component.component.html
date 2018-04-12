@@ -1,0 +1,23 @@
+<div>
+
+	<table border ='1'>
+
+		<tr class="th_col">
+			<th>SER_NO</th>
+			<th>FLIGHT_NAME</th>
+			<th>FLIGHT_NUMBER</th>
+			<th>DEPARTURE TIME</th>
+			<th>ARRIVAL TIME</th>
+		</tr>
+		<tr *ngFor="let Flight of MyFlight; let i = index" [ngClass] ="i % 2=== 0 ? 'odd':'even'">
+		    <td>{{ i + 1 }}</td>
+			<td>{{Flight.Name}}</td>
+			<td>{{Flight.Number}}</td>
+			<td>{{Flight.Departure_Time}}</td>
+			<td>{{Flight.Arrival_Time}}</td>
+		</tr>
+		
+	</table>
+
+</div>
+

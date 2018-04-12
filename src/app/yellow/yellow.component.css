@@ -1,0 +1,14 @@
+.col{
+	background-color: yellow;
+	color: white;
+	border-color: yellow;
+	border-radius: 25px;
+	box-shadow: 2px;
+	padding: 20px;
+	font-weight: bold;
+}
+h2{
+	color: yellow;
+	/*background-color:yellow;*/
+	font-style: italic;
+}
