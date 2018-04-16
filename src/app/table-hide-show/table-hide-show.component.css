@@ -1,0 +1,13 @@
+.th_col{
+	background-color: orange;
+	color: white;
+	border-color: orange;
+	font-weight: bold;
+	font-style: italic;
+}
+.even{
+	background-color:red;
+}
+.odd{
+	background-color: skyblue;
+}

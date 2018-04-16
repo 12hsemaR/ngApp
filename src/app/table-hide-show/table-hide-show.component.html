@@ -1,0 +1,26 @@
+<div>
+
+	<table border ='1' *ngIf="isActive">
+
+		<tr class="th_col">
+			<th>SER_NO</th>
+			<th>FLIGHT_NAME</th>
+			<th>BORDINGPOINT</th>
+			<th>DESTINATIONPOINT</th>
+			<th>DEPARTURE TIME</th>
+			<th>ARRIVAL TIME</th>
+		</tr>
+		<tr *ngFor="let Flight of MyFlight; let i = index" [ngClass] ="i % 2=== 0 ? 'even':'odd'">
+		    <td>{{ i + 1 }}</td>
+			<td>{{Flight.name}}</td>
+			<td>{{Flight.bordingPoint}}</td>
+			<td>{{Flight.destinationPoint}}</td>
+			<td>{{Flight.departureTime}}</td>
+			<td>{{Flight.arrivalTime}}</td>
+		</tr>
+		
+	</table>
+
+
+</div>
+<button  (click)="changeTable()">Submit</button>
