@@ -1,9 +1,23 @@
 
-<!-- <app-blue></app-blue>
+<!--<app-blue></app-blue>
 
 <app-red></app-red>
 
-<app-yellow></app-yellow>
- -->
+<app-yellow></app-yellow>-->
+ 
 
-<app-table-component></app-table-component>
+<!--<app-table-component></app-table-component>-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <form class="form-inline">
+    <input class="form-control" type="text" placeholder="Search">
+    <a class="btn btn-success" type="submit" routerLink='/red'>red</a>
+    <a class="btn btn-success" type="submit" routerLink='blue'>blue</a>
+    <a class="btn btn-success" type="submit" routerLink='yellow'>yellow</a>
+        <a class="btn btn-success" type="submit" routerLink='table'>table</a>
+
+        <a class="btn btn-success" type="submit" href='#'>dummy</a>
+
+  </form>
+</nav>
+<br>
+<router-outlet></router-outlet>
